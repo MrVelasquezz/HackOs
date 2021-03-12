@@ -1,0 +1,49 @@
+.win, .win-sm{
+    width: calc(100vw - 80px);
+    height: calc(100vh - 25px);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#term_win  .top_bar{
+    height: 25px;
+    background: rgba(88, 88, 88, 0.9);
+    color: #fff;
+    font-weight: 900;
+    position: relative;
+}
+
+
+.op_bar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.op_bar img{
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+}
+
+#term_win .bash_win{
+    width: calc(100vw - 80px);
+    height: calc(100vh - 50px);
+    background: rgb(0, 0, 0);
+    position: relative;
+}
+
+.bash_content{
+    position: absolute;
+    z-index: 1000;
+}
+
+.win input{
+    background: none;
+    border: none;
+    color: white;
+    height: 24px;
+    width: 500px;
+}

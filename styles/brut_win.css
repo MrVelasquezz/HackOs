@@ -1,0 +1,35 @@
+.bwb{
+    width: calc(100vw - 80px);
+    height: calc(100vh - 50px);
+    background: none;
+    position: relative;
+}
+
+.brut_win{
+    background: #fff;
+    width: 650px;
+    height: 550px;
+    position: relative;
+}
+
+.top_bar{
+    height: 25px;
+    background: #2f3542;
+    color: #fff;
+}
+
+.btn_section{
+    height: calc(100% - 225px);
+    width: 100%;
+}
+
+.info_terminal{
+    height: 200px;
+    width: 670px;
+    background: #000;
+}
+
+.prog_bar{
+    width: 600px;
+    height: 35px;
+}

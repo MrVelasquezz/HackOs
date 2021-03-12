@@ -1,0 +1,10 @@
+$('.reg_window').css('display','none');
+        $('.auth_window').css('display','flex');
+        $('.to-register').click(()=>{
+            $('.auth_window').css('display','none');
+            $('.reg_window').css('display','flex');
+        });
+        $('.to-login').click(()=>{
+            $('.reg_window').css('display','none');
+            $('.auth_window').css('display','flex');
+        });

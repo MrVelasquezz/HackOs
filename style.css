@@ -1,0 +1,43 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+}
+
+body{
+    height: 100vh;
+    background: #000;
+    overflow: hidden;
+}
+
+.l-nav, .main-sec{
+    height: calc(100vh - 25px);
+}
+
+.l-nav{
+    width: 80px;
+    background: rgba(136, 128, 128, 0.5);
+}
+
+.main-sec{
+    width: 100%;
+    background-image: url('bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.nav-icons img:hover, .nav-icons img:active, .folder:hover, .folder:active{
+    background: rgba(46, 170, 252, 0.548)
+}
+
+.s-sections div{
+    width: 87px;
+    height: 98px;
+}
+
+.s-sections img{
+    width: 80px;
+}
+
+.top-bar{
+    height: 25px;
+    background: rgba(136, 128, 128, 0.2);
+}
